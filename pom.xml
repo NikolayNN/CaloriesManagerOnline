@@ -8,5 +8,12 @@
     <artifactId>MavenProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <name>Calories manager</name>
+    <description>
+        The aplication will has user registration and authorisation.
+        There are will be admin and users accounts. The administrator can manage users' accounts.
+        User can edit and delete his records. Filtration is possible for users' records by date, food, calories and other.
+        Color of record depends from amount of calories consumed in day.
+        I will using JUnit.
+    </description>
 </project>
