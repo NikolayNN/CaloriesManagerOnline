@@ -8,7 +8,9 @@ import java.util.List;
  * Created by Nikolay on 24.06.2015.
  */
 // use Repository or DAO?
+    //work with model User
 public interface UserRepository {
+    //save refresh and paste
     User save(User user);
 
     //false if not found
