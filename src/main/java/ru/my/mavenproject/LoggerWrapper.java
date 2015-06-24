@@ -1,9 +1,7 @@
-package ru.my.mavenproject.web;
+package ru.my.mavenproject;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import javax.xml.bind.ValidationException;
 
 /**
  *

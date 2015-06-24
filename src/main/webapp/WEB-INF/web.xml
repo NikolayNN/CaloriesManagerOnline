@@ -10,8 +10,16 @@
         <servlet-class>ru.my.mavenproject.web.UserServlet</servlet-class>
         <load-on-startup>0</load-on-startup>
     </servlet>
+    <servlet>
+        <servlet-name>MealServlet</servlet-name>
+        <servlet-class>ru.my.mavenproject.web.MealServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>UserServlet</servlet-name>
         <url-pattern>/users</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MealServlet</servlet-name>
+        <url-pattern>/meal</url-pattern>
     </servlet-mapping>
 </web-app>
