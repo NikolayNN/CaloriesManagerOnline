@@ -5,6 +5,6 @@ package ru.my.mavenproject.repository;
  */
 //rest inteface - user manage his meal. admin do not manage users' meal
     //rest interface какие действия пользователь может выполнять,
-    // каким образом он может администрить свои записи  
+    // каким образом он может администрить свои записи
 public interface UserMealRepository {
 }
